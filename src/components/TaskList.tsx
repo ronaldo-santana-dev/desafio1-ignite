@@ -27,7 +27,7 @@ export function TaskList() {
         task.isComplete = !task.isComplete;
       }
     })
-    setTasks(tasksNew);
+    setTasks(tasksNew); 
   }
 
   function handleRemoveTask(id: number) {
